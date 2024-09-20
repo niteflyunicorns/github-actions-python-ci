@@ -1,9 +1,6 @@
 import unittest
-import sys
 
-sys.path.insert(0, '../src/' )
-
-from calculator import add, subtract, divide
+from src.calculator import add, subtract, divide
 
 class TestCalculator( unittest.TestCase ):
     def test_add( self ):
